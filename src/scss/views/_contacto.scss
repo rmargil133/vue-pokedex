@@ -1,0 +1,65 @@
+.contacto{
+  width: 100%;
+  height: 542px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__fondo{
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+  }
+
+  &__formulario{
+    border: 2px solid #000;
+    padding: 20px 30px;
+  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    &__contenedor{
+      display: flex;
+      width: 540px;
+      margin: 10px 0px;
+      justify-content: space-between;
+
+      &__nombre{
+        width: 250px;
+        padding: 15px 6px;
+   
+      }
+  
+      &__apellidos{
+        width: 250px;
+        padding: 15px 6px;
+      
+      }
+
+    }
+
+    &__email{
+      width: 540px;
+      padding: 15px 6px;
+      margin: 10px 0px;
+    }
+
+    &__mensaje{
+      width: 540px;
+      height: 100px;
+      padding: 10px 6px;
+      margin: 10px 0px;
+    }
+
+    &__enviar{
+      margin: 10px 0px;
+      width: 120px;
+      height: 40px;
+      border-radius: 15px;
+      font-size: 15px;
+
+
+    }
+  }
+}

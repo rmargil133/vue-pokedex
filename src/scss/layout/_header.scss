@@ -1,0 +1,50 @@
+.principal{
+  width: 100%;
+  background:#5868FE;
+  display: flex;
+  justify-content: space-between;
+  
+  &__logo{
+    padding: 10px 15px;
+
+    &__pokeball{
+      width: 65px;
+      height: 65px;
+    }
+    &__titulo{
+      width:150px;
+      height:65px;
+    }
+  }
+
+  &__menu{
+    display: flex;
+    color:white;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+  }
+
+  li{
+    padding: 0px 15px;
+    font-size: 18px;
+  }
+
+  &__contenedor{
+    padding: 20px 20px;
+    display: flex;
+    align-items: flex-end;
+
+    &__login{
+
+      width: 40px;
+      height: 40px;
+      margin-left:20px;
+    }
+  }
+
+}

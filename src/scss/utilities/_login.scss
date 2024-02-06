@@ -1,0 +1,34 @@
+.login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  align-items: flex-start;
+  height: 542px;
+
+  &__formulario{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__email{
+      width: 310px;
+      padding: 10px 6px;
+      margin: 10px 0px;
+
+    }
+
+    &__contraseña{
+      width: 310px;
+      padding: 10px 6px;
+      margin: 10px 0px;
+    }
+    &__acceder{
+      width: 70px;
+      height: 30px;
+    }
+  }
+  
+}
+
