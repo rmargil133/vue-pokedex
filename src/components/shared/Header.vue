@@ -10,11 +10,14 @@
       <ul>
         <li><router-link to="/listado">Pokemons</router-link></li>
         <li><router-link to="/contacto">Contacto</router-link></li>
-        <li><router-link  to="/:pathMatch(.*)*">Página 404</router-link></li>
+        <li><router-link to="/:pathMatch(.*)*">Página 404</router-link></li>
       </ul>
     </nav>
     <div class="principal__contenedor">
-      <input class=principal__contenedor__buscador>
+      <div class="principal__contenedor__buscador">
+      <input type="search" placeholder="Buscar Pokémon..." class="principal__contenedor__buscador__input">
+      <img src="../../assets/lupa.png" class="principal__contenedor__buscador__lupa">
+    </div>
       <router-link to="login">
       <img class="principal__contenedor__login" src="../../assets/Login.png" alt="login">
       </router-link>
