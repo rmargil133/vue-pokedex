@@ -8,14 +8,17 @@
       <button class="login__formulario__acceder">Acceder</button>
     </form>
   </main>
+  <footerPrincipal/>
 </template>
 
 <script>
 import headerPrincipal from "../shared/Header.vue" 
+import footerPrincipal from "../shared/Footer.vue"
 export default {
   name: 'Login',
   components: {
-    headerPrincipal
+    headerPrincipal,
+    footerPrincipal
   }
 }
 </script>

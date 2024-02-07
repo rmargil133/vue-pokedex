@@ -13,14 +13,17 @@
       <button class="contacto__formulario__enviar">Enviar</button>
     </form>
   </main>
+  <footerPrincipal/>
 </template>
 
 <script>
 import headerPrincipal from "../shared/Header.vue" 
+import footerPrincipal from "../shared/Footer.vue"
 export default {
   name: 'Contacto',
   components: {
-    headerPrincipal
+    headerPrincipal,
+    footerPrincipal
   }
 }
 

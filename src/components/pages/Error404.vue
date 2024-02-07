@@ -6,14 +6,17 @@
     <p class="mensaje404">Pokemon not found</p>
     <router-link to="/"><button class="backHome">BACK HOME</button></router-link>
   </main>
+  <footerPrincipal/>
 </template>
 
 <script>
 import headerPrincipal from "../shared/Header.vue" 
+import footerPrincipal from "../shared/Footer.vue"
 export default {
   name: 'Error404',
   components: {
-    headerPrincipal
+    headerPrincipal,
+    footerPrincipal
   }
 }
 </script>

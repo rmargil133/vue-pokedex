@@ -1,0 +1,32 @@
+.footer{
+  background: #5868FE;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  align-items: center;
+  height: 60px;
+
+  &__politicas{
+    display: flex;
+    p{
+      padding: 0px 10px;
+      color: white;
+    }
+  }
+ 
+
+  &__titulo{
+    width: 100px;
+  }
+
+  &__contenedor{
+    display: flex;
+    &__social{
+      margin: 0px 10px;
+      width: 24px;
+      height: 24px;
+    }
+  } 
+
+}
