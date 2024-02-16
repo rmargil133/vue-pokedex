@@ -1,0 +1,49 @@
+.titulo{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  padding: 8px 15px;
+}
+
+// Estilos para la lista de Pokémon
+.listado {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+// Estilos para las tarjetas de Pokémon
+.carta_pokemon {
+  background-color: #f8f4cc;
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .nombre {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .foto_pokemon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .tipo {
+    font-size: 16px;
+    margin: 0;
+  }
+}
