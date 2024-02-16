@@ -1,10 +1,14 @@
 <template>
   <headerPrincipal/>
   <main class="main404">
-    <h1 class="titulo404">S O R R Y</h1>
-    <h2 class="error404">404</h2>
-    <p class="mensaje404">Pokemon not found</p>
-    <router-link to="/"><button class="backHome">BACK HOME</button></router-link>
+    <h1 class="main404__titulo404">E R R O R</h1>
+    <div class="main404__contenedor">
+      <p class="main404__contenedor__error404">4</p>
+      <img class="main404__contenedor__pokeball404" src="../../assets/Pokeball404.png" alt="pokeball">
+      <p class="main404__contenedor__error404">4</p>
+    </div>
+    <p class="main404__mensaje404">Not Found</p>
+    <router-link to="/"><button class="main404__backHome">BACK HOME</button></router-link>
   </main>
   <footerPrincipal/>
 </template>

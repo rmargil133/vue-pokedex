@@ -17,6 +17,9 @@ const routes = [
   { path: '/login',
     component: ()=>import("../pages/Login.vue")},
 
+  { path: '/registro',
+    component: ()=>import("../pages/Registro.vue")},
+
   { path: '/:pathMatch(.*)*',
     component: ()=>import("../pages/Error404.vue")}
 ]

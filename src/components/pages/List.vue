@@ -1,7 +1,7 @@
 <template>
   <headerPrincipal/>
   <main>
-    <h1>Listado</h1>
+    <router-link to="id"><h1>Listado</h1></router-link>
   </main>
   <footerPrincipal/>
 </template>

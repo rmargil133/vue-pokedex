@@ -1,12 +1,138 @@
 .main{
-
-  background: linear-gradient(to right, rgba(#5868FE, 0.4), rgba(#00FFA3, 0.2));
-  height: 482.3px;
+  height: 572px;
+  width: 100%;
+  display: flex;
+  align-items: center;
   
-
-  &__pikachu{
-    margin: 20px;
-    width: 150px;
-    height: 180px;
+  &__fondo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
   }
+
+  div{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  &__info{
+    height: 32%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    h1{
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+    }
+    p{
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    a{ 
+      padding: 6px 0px;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 150px;
+      height: 34px;
+      background-color: #00C8AC;
+      text-decoration: none;
+      color: white;
+
+    }
+
+    a:hover{
+      background-color: #015896;
+      color: white;
+      cursor: pointer;
+    }
+  } 
+
+  h2{
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+  }
+
+  &__elijePokemon{
+    width: 53%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+      &__pokemons{
+      padding: 25px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__imagen{
+        padding: 10px;
+        border:solid;
+        width:160px;
+        height: 160px;
+      }
+
+      &__botonElejirBulbalsur{
+        cursor: pointer;
+        background-color: #8AC6AC;
+        padding: 2px 4px;
+        font-size: 15px;
+        margin: 20px 0px;
+        height: 50px;
+        width: 75%;
+      }
+
+      &__botonElejirBulbalsur:hover{
+        background-color: #6c9b87;
+        color: white;
+      }
+
+      &__botonElejirCharmander{
+        cursor: pointer;
+        background-color: #E5A77D;
+        padding: 2px 4px;
+        font-size: 15px;
+        margin: 20px 0px;
+        height: 50px;
+        width: 75%;
+      }
+
+      &__botonElejirCharmander:hover{
+        background-color: #a7785c;
+        color: white;
+      }
+
+      &__botonElejirSquirtle{
+        cursor: pointer;
+        background-color: #8FC5D2;
+        padding: 2px 4px;
+        font-size: 15px;
+        margin: 20px 0px;
+        height: 50px;
+        width: 75%;
+      }
+
+      &__botonElejirSquirtle:hover{
+        background-color: #6d96a0;
+        color: white;
+      }
+    }
+  }
+
 }

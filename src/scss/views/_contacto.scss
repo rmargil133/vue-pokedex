@@ -8,6 +8,7 @@
   &__fondo{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     opacity: 0.15;
   }
 
@@ -53,6 +54,7 @@
     }
 
     &__enviar{
+      cursor: pointer;
       margin: 10px 0px;
       width: 120px;
       height: 40px;

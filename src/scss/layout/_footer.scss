@@ -8,6 +8,7 @@
   height: 60px;
 
   &__politicas{
+    width: 30%;
     display: flex;
     p{
       padding: 0px 10px;
@@ -17,11 +18,14 @@
  
 
   &__titulo{
-    width: 100px;
+    width: 120px;
   }
 
   &__contenedor{
+    width: 30%;
     display: flex;
+    justify-content: flex-end;
+    
     &__social{
       margin: 0px 10px;
       width: 24px;

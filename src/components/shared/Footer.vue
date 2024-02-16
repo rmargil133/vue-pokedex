@@ -8,7 +8,7 @@
 
     <img class="footer__titulo" src="../../assets/Titulo.png" alt="titulo">
 
-    <div class="footer__contenedorcontenedor__">
+    <div class="footer__contenedor">
     <img class="footer__contenedor__social" src="../../assets/Instagram.png">
     <img class="footer__contenedor__social" src="../../assets/Youtube.png">
     <img class="footer__contenedor__social" src="../../assets/Twitter.png">
