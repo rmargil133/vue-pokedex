@@ -19,48 +19,45 @@
 </template>
 
 <script>
-
 import axios from 'axios';
-import headerPrincipal from "../shared/Header.vue";
+import headerLogueado from "../shared/HeaderLogueado.vue";
 import footerPrincipal from "../shared/Footer.vue";
 
 export default {
-  name: 'Listado',
+  name: 'ListadoRegistrado',
   components: {
-    headerPrincipal,
+    headerLogueado,
     footerPrincipal
   },
   data() {
     return {
-     // Array donde guardaremos nuestros pokemons
       pokemons: []
     };
   },
   mounted() {
-    // Realiza una solicitud GET a la API de Pokémon para obtener una lista de Pokémon limitada a 50
-    axios.get('https://pokeapi.co/api/v2/pokemon?limit=50')
+    axios.get('https://pokeapi.co/api/v2/pokemon?limit=30')
       .then(response => {
-        // Obtiene los resultados de la respuesta
         const results = response.data.results;
-        // Por cada Pokémon en los resultados
         results.forEach(pokemon => {
-          // Se realiza una solicitud GET a la url del pokemon para obtener más datos.
           axios.get(pokemon.url)
             .then(response => {
-              // Obtiene los datos de las respuesta.
               const pokemonData = response.data;
-              // Objeto para guardar los datos que necesito.
               const pokemonObject = {
                 id: pokemonData.id,
                 name: pokemonData.name,
                 image: pokemonData.sprites.front_default,
                 types: pokemonData.types.map(type => type.type.name)
               };
-              // Metemos el objeto dentro del array
               this.pokemons.push(pokemonObject);
             })
+            .catch(error => {
+              console.error('Error al obtener datos de Pokemon:', error);
+            });
         });
       })
+      .catch(error => {
+        console.error('Error al obtener lista de Pokémon:', error);
+      });
   }
 };
 </script>

@@ -1,11 +1,13 @@
 <template>
   <headerPrincipal/>
   <main class="login">
-    <img class="login__fondo" src="../../assets/degradado1.png">
+    <img class="login__fondo" src="../../assets/image (1).jpg" alt="fondo formulario">
     <form class="login__formulario" @submit.prevent="login">
       <img class="login__formulario__banner" src="../../assets/banner-form.jpeg" alt="banner pokemons">
-      <h2>Inicia sesión y accede a tu cuenta.</h2>
-      <a class="login__formulario__registrate"><router-link to="/registro">Registrate si no lo estas ¡Es gratis!</router-link></a>
+      <div class="login__formulario__contenedorTexto">
+        <h2 class="login__formulario__contenedorTexto__inicia">Inicia sesión y accede a tu cuenta.</h2>
+        <a class="login__formulario__contenedorTexto__registrate"><router-link to="/registro">Registrate si no lo estas ¡Es gratis!</router-link></a>
+      </div>
       <div class="login__formulario__contenedor">
         <input v-model="email" class="login__formulario__contenedor__email" type="email" placeholder="DIRECCION DE CORREO ELECTRONICO*" required>
         <input v-model="contrasena" class="login__formulario__contenedor__contraseña" type="password" placeholder="CONTRASEÑA" required> 

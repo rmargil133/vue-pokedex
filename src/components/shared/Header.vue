@@ -10,7 +10,6 @@
       <ul>
         <li><router-link to="/listado">Pokemons</router-link></li>
         <li><router-link to="/contacto">Contacto</router-link></li>
-        <li><router-link to="/:pathMatch(.*)*">Página 404</router-link></li>
       </ul>
     </nav>
     <div class="principal__contenedor">

@@ -18,7 +18,7 @@
  
 
   &__titulo{
-    width: 120px;
+    width: 10%;
   }
 
   &__contenedor{
@@ -33,4 +33,190 @@
     }
   } 
 
+}
+
+/* Estilos para dispositivos más pequeños */
+@media only screen and (max-width: 1044px) {
+  .footer {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+    height: 60px;
+
+  &__politicas{
+    width: 55%;
+    display: flex;
+    p{
+      padding: 0px 10px;
+      color: white;
+    }
+  }
+
+  &__titulo{
+    width: 15%;
+  }
+
+  &__contenedor{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+    &__social{
+      margin: 0px 10px;
+      width: 24px;
+      height: 24px;
+    }
+  } 
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+  .footer {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+    height: 60px;
+
+  &__politicas{
+    width: 55%;
+    display: flex;
+    p{
+      padding: 0px 10px;
+      color: white;
+    }
+  }
+
+  &__titulo{
+    width: 15%;
+  }
+
+  &__contenedor{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    
+    &__social{
+      margin: 0px 10px;
+      width: 24px;
+      height: 24px;
+    }
+  } 
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__politicas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer__titulo{
+    margin: 10px 0px;
+    width: 15%;
+  }
+
+  .footer__contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 587px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__politicas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer__titulo{
+    margin: 10px 0px;
+    width: 20%;
+  }
+
+  .footer__contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__politicas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer__titulo{
+    margin: 10px 0px;
+    width: 23%;
+  }
+
+  .footer__contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__politicas {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer__titulo{
+    margin: 10px 0px;
+    width: 30%;
+  }
+
+  .footer__contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

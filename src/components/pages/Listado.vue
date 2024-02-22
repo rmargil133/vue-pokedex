@@ -24,6 +24,7 @@ import axios from 'axios';
 import headerPrincipal from "../shared/Header.vue";
 import footerPrincipal from "../shared/Footer.vue";
 
+
 export default {
   name: 'Listado',
   components: {
@@ -38,7 +39,7 @@ export default {
   },
   mounted() {
     // Realiza una solicitud GET a la API de Pokémon para obtener una lista de Pokémon limitada a 50
-    axios.get('https://pokeapi.co/api/v2/pokemon?limit=50')
+    axios.get('https://pokeapi.co/api/v2/pokemon?limit=20')
       .then(response => {
         // Obtiene los resultados de la respuesta
         const results = response.data.results;

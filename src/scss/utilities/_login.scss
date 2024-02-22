@@ -28,20 +28,28 @@
       margin-bottom: 10px;
     }
 
-    h2{
-      font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 22px;
-      text-align: center;
-    }
+    &__contenedorTexto{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px 15px;
 
-    &__registrate{
-      font-family: 'Inter', sans-serif;
-      font-weight: 600;
-      font-size: 14px;
-      text-decoration:none;
-      color: white;
-      padding: 10px 17px;
+      &__inicia{
+        font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          font-size: 22px;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+  
+      &__registrate{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration:none;
+        color: white;
+      }
     }
 
     &__contenedor{
@@ -94,4 +102,188 @@
     }
   }
 }
+
+/* Estilos para dispositivos más pequeños */
+
+
+/* Estilos para dispositivos más pequeños */
+@media only screen and (max-width: 1169px) {
+
+  .login__formulario {
+    width: 28%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 17px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 1091px) {
+
+  .login__formulario {
+    width: 28%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 16px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 1032px) {
+
+  .login__formulario {
+    width: 34%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 16px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 857px) {
+
+  .login__formulario {
+    width: 38%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 16px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+
+  .login__formulario {
+    width: 42%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 15px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 647px) {
+
+  .login__formulario {
+    width: 44%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 13px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+
+  .login__formulario {
+    width: 50%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 13px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration:none;
+    color: white;
+  }
+}
+@media only screen and (max-width: 480px) {
+
+  .login__formulario {
+    width: 55%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 12px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+
+  .login__formulario {
+    width: 65%; /* Reducir el ancho en dispositivos más pequeños */
+    height: 20%;
+  }
+
+  .login__formulario__contenedorTexto h2{
+    font-size: 12px;
+  }
+
+  .login__formulario__contenedorTexto__registrate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    text-decoration:none;
+    color: white;
+  }
+}
+
 

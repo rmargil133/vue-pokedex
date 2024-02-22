@@ -1,7 +1,7 @@
 <template>
   <headerPrincipal/>
   <main class="registro">
-    <img class="registro__fondo" src="../../assets/degradado1.png">
+    <img class="registro__fondo" src="../../assets/descarga (1).png" alt="fondo formulario">
     <form class="registro__formulario" @submit.prevent="submitForm">
       <img class="registro__formulario__banner" src="../../assets/banner-form.jpeg" alt="banner pokemons">
       <h2>Regístrate y accede a tu cuenta</h2>

@@ -47,3 +47,56 @@
     margin: 0;
   }
 }
+
+/* Estilos para dispositivos más pequeños */
+@media only screen and (max-width: 920px) {
+  .listado {
+    grid-template-columns: repeat(4, 1fr); /* Cambiar a 2 columnas en dispositivos más pequeños */
+  }
+
+  .carta_pokemon {
+    padding: 10px; /* Reducir el padding en dispositivos más pequeños */
+  }
+}
+
+/* Estilos para dispositivos más pequeños */
+@media only screen and (max-width: 750px) {
+  .listado {
+    grid-template-columns: repeat(3, 1fr); /* Cambiar a 2 columnas en dispositivos más pequeños */
+  }
+
+  .carta_pokemon {
+    padding: 10px; /* Reducir el padding en dispositivos más pequeños */
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .listado {
+    grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas en dispositivos más pequeños */
+  }
+
+  .carta_pokemon {
+    padding: 10px; /* Reducir el padding en dispositivos más pequeños */
+  }
+}
+
+/* Estilos para dispositivos aún más pequeños */
+@media only screen and (max-width: 480px) {
+  .listado {
+    grid-template-columns: repeat(2, 1fr); /* Cambiar a 1 columna en dispositivos muy pequeños */
+  }
+
+  .carta_pokemon {
+    padding: 5px; /* Reducir aún más el padding en dispositivos muy pequeños */
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .listado {
+    grid-template-columns: repeat(1, 1fr); /* Cambiar a 1 columna en dispositivos muy pequeños */
+  }
+
+  .carta_pokemon {
+    padding: 5px; /* Reducir aún más el padding en dispositivos muy pequeños */
+  }
+}
