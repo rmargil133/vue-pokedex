@@ -38,7 +38,7 @@
       &__inicia{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 19px;
+        font-size: 16px;
         text-align: center;
         padding-bottom: 10px;
       }
@@ -46,7 +46,7 @@
       &__registrate{
         font-family: 'Inter', sans-serif;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 12px;
         text-decoration:none;
         color: white;
       }
@@ -103,7 +103,59 @@
   }
 }
 
-/* Estilos para dispositivos más pequeños */
+@media screen and (max-width: 1160px) {
+  .login__formulario{
+    width: 30%;
+  }
+  
+}
+
+@media screen and (max-width: 1160px) {
+  .login__formulario{
+    width: 35%;
+  }
+  
+}
+
+@media screen and (max-width: 829px) {
+  .login__formulario{
+    width: 40%;
+  }
+  
+}
+
+@media screen and (max-width: 723px) {
+  .login__formulario{
+    width: 45%;
+  }
+  
+}
+
+@media screen and (max-width: 643px) {
+  .login__formulario{
+    width: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 578px) {
+  .login__formulario{
+    width: 60%;
+  }
+  
+}
 
 
-/* Estilos para dispositivos más pequeños */
+@media screen and (max-width: 482px) {
+  .login__formulario{
+    width: 75%;
+  }
+  
+}
+
+@media screen and (max-width: 389px) {
+  .login__formulario{
+    width: 95%;
+  }
+  
+}

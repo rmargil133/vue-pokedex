@@ -1,11 +1,13 @@
 <template>
   <headerPrincipal/>
   <main class="registro">
-    <img class="registro__fondo" src="../../assets/descarga (1).png" alt="fondo formulario">
+    <img class="registro__fondo" src="../../assets/image (1).jpg" alt="fondo formulario">
     <form class="registro__formulario" @submit.prevent="submitForm">
       <img class="registro__formulario__banner" src="../../assets/banner-form.jpeg" alt="banner pokemons">
-      <h2>Regístrate y accede a tu cuenta</h2>
-      <p><router-link to="login">¿Estás registrado? ¡Inicia Sesión!</router-link></p>
+      <div class="registro__formulario__contenedorTexto">
+        <h1 class="registro__formulario__contenedorTexto__registrate">Regístrate y accede a tu cuenta</h1>
+        <a class="registro__formulario__contenedorTexto__iniciaSesion"><router-link to="login">Si ya estas registrado, ¡Inicia Sesión!</router-link></a>
+      </div>
       <div class="registro__formulario__contenedor">
         <input v-model="nombre" class="registro__formulario__contenedor__nombre" type="text" placeholder="NOMBRE" required>
         <input v-model="email" class="registro__formulario__contenedor__email" type="email" placeholder="DIRECCIÓN DE CORREO ELECTRÓNICO*" required>

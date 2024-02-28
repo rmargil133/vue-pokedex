@@ -5,7 +5,7 @@
     <form class="login__formulario" @submit.prevent="login">
       <img class="login__formulario__banner" src="../../assets/banner-form.jpeg" alt="banner pokemons">
       <div class="login__formulario__contenedorTexto">
-        <h2 class="login__formulario__contenedorTexto__inicia">Inicia sesión y accede a tu cuenta.</h2>
+        <h1 class="login__formulario__contenedorTexto__inicia">Inicia sesión y accede a tu cuenta.</h1>
         <a class="login__formulario__contenedorTexto__registrate"><router-link to="/registro">Registrate si no lo estas ¡Es gratis!</router-link></a>
       </div>
       <div class="login__formulario__contenedor">
