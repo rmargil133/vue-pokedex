@@ -1,33 +1,36 @@
 .main{
-  height: 572px;
+  height: 76vh;
   width: 100%;
   display: flex;
-  align-items: center;
+  overflow: hidden;
   
   &__fondo{
     width: 100%;
-    height: 100%;
+    height: 76vh;
     object-fit: cover;
-    position: absolute;
-    z-index: -1;
   }
 
   div{
     width: 100%;
-    height: 90%;
+    height: 76vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    position: absolute;
+    padding: 10px 0px;
   }
   
   &__info{
+    width: 100%;
     height: 32%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 19px;
+
 
     h1{
       font-family: 'Inter', sans-serif;
@@ -45,7 +48,6 @@
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 18px;
-      border-radius: 3px;
       cursor: pointer;
       width: 150px;
       height: 34px;
@@ -135,4 +137,79 @@
     }
   }
 
+}
+
+@media screen and (max-width:960px) {
+  
+  .main h2{
+
+    font-size: 20px;
+  }
+
+  .main__info{
+    height: 32%;
+  }
+
+
+}
+
+@media screen and (max-width:906px) {
+
+  .main__info{
+    height: 55%;
+  }
+
+.main h2{
+  padding-bottom: 10px;
+}
+
+
+}
+
+@media screen and (max-width:868px) {
+  
+  .main h2{
+
+    font-size: 18px;
+  }
+}
+
+
+
+@media screen and (max-width:605px) {
+  
+  .main__info{
+
+    height: 80%;
+  }
+
+  .main h2{
+
+    padding-bottom: 15px;
+  }
+
+  @media screen and (max-width:455px) {
+    
+    .main__info{
+      height: 90%;
+    }
+
+    .main h2{
+  
+      font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width:407px) {
+
+  .main__info{
+    height: 90%;
+  }
+  .main h2{
+
+    font-size: 15px;
+    
+  }
+}
 }

@@ -1,25 +1,25 @@
 .login{
   width: 100%;
+  height: 85vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  overflow: hidden;
   
   &__fondo{
     width: 100%;
-    height: 100%;
+    height: 85vh;
     object-fit: cover;
-    position: absolute;
-    z-index: -1;
   }
 
   &__formulario{
+    height: 79vh;
+    width: 25%;
     display: flex;
     flex-direction: column;
+    position: absolute;
     color: white;
     background-color: #5868FE;
-    height: 580px;
-    width: 28%;
-    margin: 26px 0px;
 
     &__banner{
       width: 100%;
@@ -37,8 +37,8 @@
 
       &__inicia{
         font-family: 'Inter', sans-serif;
-          font-weight: 400;
-          font-size: 22px;
+        font-weight: 400;
+        font-size: 19px;
         text-align: center;
         padding-bottom: 10px;
       }
@@ -94,7 +94,7 @@
     &__contenedorLogo{
       display: flex;
       justify-content: center;
-      padding: 15px 0px;
+      padding-top: 15px;
 
       &__logoFondo{
         width: 40%;
@@ -107,183 +107,3 @@
 
 
 /* Estilos para dispositivos más pequeños */
-@media only screen and (max-width: 1169px) {
-
-  .login__formulario {
-    width: 28%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 17px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 13px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 1091px) {
-
-  .login__formulario {
-    width: 28%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 16px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 13px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 1032px) {
-
-  .login__formulario {
-    width: 34%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 16px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 13px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 857px) {
-
-  .login__formulario {
-    width: 38%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 16px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 13px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-
-  .login__formulario {
-    width: 42%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 15px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 647px) {
-
-  .login__formulario {
-    width: 44%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 13px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 10px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 547px) {
-
-  .login__formulario {
-    width: 50%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 13px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 10px;
-    text-decoration:none;
-    color: white;
-  }
-}
-@media only screen and (max-width: 480px) {
-
-  .login__formulario {
-    width: 55%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 12px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 9px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 405px) {
-
-  .login__formulario {
-    width: 65%; /* Reducir el ancho en dispositivos más pequeños */
-    height: 20%;
-  }
-
-  .login__formulario__contenedorTexto h2{
-    font-size: 12px;
-  }
-
-  .login__formulario__contenedorTexto__registrate{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 9px;
-    text-decoration:none;
-    color: white;
-  }
-}
-
-

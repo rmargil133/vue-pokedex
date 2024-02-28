@@ -8,9 +8,9 @@
       <p class="main__parrafo">Millones de Pokémons. No necesitas tarjeta de crédito.</p>
       <router-link to="/listado"><a class="main__botonVer">Ver Pokémons</a></router-link>
     </section>
-    
+    <h2>Prueba a elegir unos de los tres pokemon principales!</h2>  
     <section class="main__elijePokemon">   
-      <h2>Prueba a elegir unos de los tres pokemon principales!</h2>  
+
         <article class="main__elijePokemon__pokemons">
           <img class="main__elijePokemon__pokemons__imagen" src="../../assets/Bulbalsur.png">
           <button class="main__elijePokemon__pokemons__botonElejirBulbalsur">Elijo a Bulbalsur</button>
