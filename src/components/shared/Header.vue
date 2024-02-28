@@ -16,13 +16,14 @@
       <div class="principal__contenedor__buscador">
       <input type="search" placeholder="Buscar Pokémon..." class="principal__contenedor__buscador__input">
       <router-link to="id">
-      <img src="../../assets/lupa.png" class="principal__contenedor__buscador__lupa">
+      <img src="../../assets/lupa.png" class="principal__contenedor__buscador__lupa" alt="lupa">
       </router-link>
     </div>
-      <img class="principal__contenedor__darkMode" src="../../assets/Dark-mode.png">
+      <img class="principal__contenedor__darkMode" src="../../assets/Dark-mode.png" alt="boton-modoOscuro">
       <router-link to="login">
       <img class="principal__contenedor__login" src="../../assets/Login.png" alt="login">
       </router-link>
+      <img class="principal__contenedor__botonMenu" src="../../assets/menu-hamburguesa.png" alt="boton-menu">
     </div>
   </header>
 </template>
