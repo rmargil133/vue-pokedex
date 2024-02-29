@@ -79,6 +79,7 @@
 
     &__botonMenu{
       display: none;
+      cursor: pointer;
     }
 
     &__darkMode{
@@ -174,5 +175,30 @@
 }
 
 }
+
+@media screen and (max-width:411px) {
+
+  .principal__contenedor{
+    padding: 0px;
+    padding-right: 20px;
+    width: 52%;
+  }
+
+  .principal__logo{
+    width: 43%;
+    padding: 10px 10px;   
+  }
+
+  .principal__logo__pokeball{
+    width: 40px;
+    height: 40px;
+  }
+
+  .principal__logo__titulo{
+    width: 105px;
+    height: 40px;
+  }
+  }
+  
 
 
