@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Project Desploy
+
+```sh
+https://vuepokedexproyect.netlify.app/
+```
